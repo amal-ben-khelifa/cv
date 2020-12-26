@@ -1,64 +1,63 @@
 const REPOSITORY = 'gatsby-resume-template';
-const FIRST_NAME = 'Amal';
-const LAST_NAME = 'Ben Khelifa';
-const GITHUB_USERNAME = 'amal ben khelifa';
-const TWITTER_USERNAME = 'amal ben khelifa';
-const LINKEDIN_USERNAME = 'amel ben khelifa';
-const PHONE_NUMBER = '51598718';
-const ADDRESS = 'Rue Borj Bou khelifa Nabeul';
-const EMAIL = 'amelbk7@gmail.com';
+const FIRST_NAME = 'Syrine';
+const LAST_NAME = 'Chelly';
+const GITHUB_USERNAME = 'awesome-developer';
+const TWITTER_USERNAME = 'awesome-developer';
+const LINKEDIN_USERNAME = 'awesome-developer';
+const PHONE_NUMBER = '+216 53996104';
+const ADDRESS = 'Nabeul';
+const EMAIL = 'syrinechelly5@gmail.com';
 const FOOTER_URL = 'https://www.cto.ai';
 
 const BIO = `
-Je suis actuellement étudiante en 3éme année en ingénierie informatique spécialité 
- génie logiciel à l'institut supérieur d’informatique Ariana. `;
+Etudiante actuellement en 3éme année ingénieur de spécialité ingénierie du développement logiciel. J’ai hâte de pouvoir élaborer de nouveaux projets auprès du domaine dans lequel je me suis spécialisée afin de renforcer mes compétences`;
 
 const EXPERIENCE_LIST = [
   {
-    title: 'Stage dété',
-    company: 'DOTCOM',
+    title: 'Stage été ',
+    company: 'Néopolis developpement ',
     description: `
-    conception et développement d'une application Web qui aide les recruteurs à trouver
-    les étudiants qui cherchent des stages
-    Durée: 3 Mois
-    Technologies utilisées: Angular Node js`,
-    
-      period: '07/2020-09/2020',
+    Conception et développement d’une application web pour récupérer des objets perdus intitulée Found.Me`,
+    period: 'aout 2020 - septempbre 2020 ',
   },
   {
     title: 'Stage PFE',
-    company: 'INDAFRI',
+    company: 'Startup Devrows  ',
     description: `
-    Conception et réalisation d’un site blog de voyage pour promouvoir le tourisme
-    en Tunisie.
-    Durée: 5 Mois
-Technologies utilisées: WordPress, Html5, css, php5, Javascript, bootstrap.
-    
-    `,
-    period: '02/2018-06/2018',
+    Conception et développement d’une plateforme web et mobile de gestion d’un établissement d’enseignement supérieur privé `,
+    period: 'Mars 2018 - Mai 2018 ',
   },
   {
-    title: 'Stage été',
-    company: 'Tunisie télécom',
+    title: 'Stage de perfectionnement ',
+    company: 'Tunisie Télécom  ',
     description: `
-    Conception et réalisation d’une application de gestion des stagiaires en VB.net.
-    Durée: 1 Mois
-    Technologies utilisées: Vb. Net,Mysql.`,
-    
-      period: '06/2017-07/2017',
+    Mise en place d’une application java de gestion de stagiaires `,
+    period: 'Janvier 2017  ',
+  },
+  {
+    title: 'Stage Initiation ',
+    company: 'Hotel la badira   ',
+    description: `
+    Garantir le bon fonctionnement de tous les systèmes informatiques.
+    Assurer et gèrer la continuité de service du réseau informatique.`,
+    period: 'Janvier 2016  ',
   },
 ];
 
 const EDUCATION_LIST = [
   {
-    institution: 'Institut Supérieur dInformatique Ariana',
-    qualification: 'DIPLÔME NATIONAL EN INGÉNIEURIE DU DÉVÉLOPPEMENT DE LOGICIEL',
-    period: '2018-2020',
+    institution: 'Institut supérieur d’informatique',
+   
+    description: `
+    Diplome national d’ingénieur en sciences appliquées et technologiques `,
+    period: '2018-2021',
   },
   {
-    institution: 'Institution 2L’institut supérieur d’informatique et de techniques de communication',
-    qualification: 'LICENCE APPLIQUÉE EN TECHNOLOGIES DU MULTIMÉDIA ET DÉVELOPPEMENTWEB',
-    period: '2015-2018',
+    institution: 'Institut supérieur des études technologiques',
+
+    description: `
+    Licence appliquée en technologies d’informatique `,
+    period: '2016-2018',
   },
 ];
 
@@ -69,39 +68,57 @@ const LANGUAGES_AND_TOOLS = [
   { name: 'Angular', iconClass: 'fa-angular' },
   { name: 'React', iconClass: 'fa-react' },
   { name: 'NodeJS', iconClass: 'fa-node-js' },
-  { name: 'Wordpress', iconClass: 'fa-wordpress' },
+ 
   { name: 'NPM', iconClass: 'fa-npm' },
-  
+
 ];
 
-const SKILLS = ['Créativité', 'Sociabilité', 'Autonomie'];
+const SKILLS = ['Polyvalence', 'Autonomie', 'Sociabilité','Integration'];
 
 const PORTFOLIO = {
-  introParagraphs : [
-    `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-    `Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt anim id est laborum.`,
+  introParagraphs: [
+    
   ],
   items: [
     {
-      name: 'First portfolio item',
+      name: 'Application de gestion des matchs QATAR 2022',
       description:
-        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
+        '•	Conception et Réalisation d’une solution web développée avec le framework SpringBoot et Angular 8.',
       url: 'https://github.com/user/repo',
     },
     {
-      name: 'Second portoflio item name',
+      name: ' Application mobile native pour l’adiministration de l’ISI',
       description:
-        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
+        '•	Réalisation d’une application mobile qui permet aux étudiants de faire des demandes de scolarité et la consommation des API ProcessMaker d’une solution web, utilisant des bibliothèques OKhttp et retrofit 2.',
+      url: 'https://github.com/user/repo',
+    },
+    {
+      name: ' Application de reconnaissance d’objet ',
+      description:
+        '•Mise en place d’un sytéme de reconnaissance d’objets sur une image numérique en utilisant  un API de détection des objets TensorFlow.',
       url: 'https://github.com/user/repo',
     },
   ],
 };
+const ACTIVITES_LIST = [
+  {
+    institution: 'Institut supérieur d’informatique',
+   
+    description: `
+    Diplome national d’ingénieur en sciences appliquées et technologiques `,
+    period: '2018-2021',
+  },
+  {
+    institution: 'Institut supérieur des études technologiques',
 
+    description: `
+    Licence appliquée en technologies d’informatique `,
+    period: '2016-2018',
+  },
+];
 const CERTIFICATIONS = [
-  'Certification de participation "nuit dinfo ISITCOM 2017"',
-  'Certification de participation "nuit dinfo ISITCOM 2019"',
+  'Certification de participation "Tunisian students and young professionnel congress 2019"',
+  'Certification de participation "INNOVATION CAMP"',
   
   
 ];
@@ -137,12 +154,12 @@ module.exports = {
     {
       icon: 'fa-github',
       name: 'Github',
-      url: `https://github.com/amal-ben-khelifa`,
+      url: `https://github.com/chellysyrine`,
     },
     {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
-      url: `https://www.linkedin.com/in/ben-khelifa-amel-7835661a0/`,
+      url: `https://linkedin.com/in/syrine-chelly-021822144`,
     },
     {
       icon: 'fa-twitter',
