@@ -1,12 +1,12 @@
 const REPOSITORY = 'gatsby-resume-template';
-const FIRST_NAME = 'Syrine';
-const LAST_NAME = 'Chelly';
-const GITHUB_USERNAME = 'awesome-developer';
+const FIRST_NAME = 'amal';
+const LAST_NAME = 'ben khelifa';
+const GITHUB_USERNAME = 'amal-ben-khelifa';
 const TWITTER_USERNAME = 'awesome-developer';
-const LINKEDIN_USERNAME = 'awesome-developer';
-const PHONE_NUMBER = '+216 53996104';
+const LINKEDIN_USERNAME = 'amel ben khelifa';
+const PHONE_NUMBER = '+216 51598718';
 const ADDRESS = 'Nabeul';
-const EMAIL = 'syrinechelly5@gmail.com';
+const EMAIL = 'amalbk7@gmail.com';
 const FOOTER_URL = 'https://www.cto.ai';
 
 const BIO = `
@@ -15,32 +15,26 @@ Etudiante actuellement en 3éme année ingénieur de spécialité ingénierie du
 const EXPERIENCE_LIST = [
   {
     title: 'Stage été ',
-    company: 'Néopolis developpement ',
+    company: 'Dotcom Nabeul ',
     description: `
-    Conception et développement d’une application web pour récupérer des objets perdus intitulée Found.Me`,
-    period: 'aout 2020 - septempbre 2020 ',
+    Conception et développement d’une application web MarketplaceCV`,
+    period: 'jull 2020 - septempbre 2020 ',
   },
   {
     title: 'Stage PFE',
-    company: 'Startup Devrows  ',
+    company: 'INDAFRI  ',
     description: `
-    Conception et développement d’une plateforme web et mobile de gestion d’un établissement d’enseignement supérieur privé `,
+    Conception et développement d’un site web blog de voyage  `,
     period: 'Mars 2018 - Mai 2018 ',
   },
-  {
-    title: 'Stage de perfectionnement ',
-    company: 'Tunisie Télécom  ',
-    description: `
-    Mise en place d’une application java de gestion de stagiaires `,
-    period: 'Janvier 2017  ',
-  },
+  
   {
     title: 'Stage Initiation ',
-    company: 'Hotel la badira   ',
+    company: 'Tunisie Télécom   ',
     description: `
     Garantir le bon fonctionnement de tous les systèmes informatiques.
-    Assurer et gèrer la continuité de service du réseau informatique.`,
-    period: 'Janvier 2016  ',
+    création application web de gestion des stagiaires `,
+    period: 'Juin 2017 ',
   },
 ];
 
@@ -53,10 +47,10 @@ const EDUCATION_LIST = [
     period: '2018-2021',
   },
   {
-    institution: 'Institut supérieur des études technologiques',
+    institution: 'ISit com hamem sousse',
 
     description: `
-    Licence appliquée en technologies d’informatique `,
+    Licence appliquée en multimedia et developement web `,
     period: '2016-2018',
   },
 ];
@@ -73,7 +67,7 @@ const LANGUAGES_AND_TOOLS = [
 
 ];
 
-const SKILLS = ['Polyvalence', 'Autonomie', 'Sociabilité','Integration'];
+const SKILLS = ['créativité', 'Autonomie', 'Sociabilité','Integration'];
 
 const PORTFOLIO = {
   introParagraphs: [
@@ -109,16 +103,17 @@ const ACTIVITES_LIST = [
     period: '2018-2021',
   },
   {
-    institution: 'Institut supérieur des études technologiques',
+    institution: 'Isitcom hamem sousse',
 
     description: `
-    Licence appliquée en technologies d’informatique `,
+    Licence appliquée en multimédia et devellopement web `,
     period: '2016-2018',
   },
 ];
 const CERTIFICATIONS = [
   'Certification de participation "Tunisian students and young professionnel congress 2019"',
-  'Certification de participation "INNOVATION CAMP"',
+  'Certification de participation "Nuit dinfo"',
+
   
   
 ];
